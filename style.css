@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    
+}
+
+
+.header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-around;
+    display: flex; 
+    align-items: center;
+}
+ul,
+a {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    gap: 35px;
+}

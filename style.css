@@ -32,6 +32,8 @@ h1 {
     gap: 25px;
     border-radius: 160px;
     margin-top: 30px;
+    border: 9px solid black;
+
 }
 
 .topleftblk {
@@ -57,14 +59,23 @@ h1 {
     display: flex;
     margin: 70px;
     border-radius: 200px;
-    height: 260px;
+    height: 400px;
     margin-top: 50px;
     background-color: #644d39eb;
     justify-content: space-around;
     align-items: center;
+    border: 9px solid black;
+    flex-direction: column;
+
 
 }
 
+.espresso-header {
+    color: #f9faf8;
+    font-size: 70px;
+    margin: 30px;
+    font-weight: 400;
+}
 
 .card {
     display: flex;
@@ -77,6 +88,35 @@ h1 {
 
 }
 
+.third {
+    font-size: 40px;
+    background: #644d39eb;
+    margin: 100px;
+    padding: 1em;
+    border-radius: 130px;
+    border: 9px solid black;
+}
+
+blockquote {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fourth {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+.signup {
+    background-color: #644d39eb;
+    color: #E5E7EB;
+    width: 100%;
+    justify-content: center;
+    align-items: center;   
+    display: flex;
+}
 
 ul,
 a {
@@ -87,6 +127,10 @@ a {
     font-size: 18px;
     gap: 35px;
     margin-right: 10px;
+}
+
+p {
+    margin: 0;
 }
 
 h2 {

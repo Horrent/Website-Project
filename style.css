@@ -93,6 +93,7 @@ h1 {
     background: #644d39eb;
     margin: 100px;
     padding: 1em;
+    color: #E5E7EB;
     border-radius: 130px;
     border: 9px solid black;
 }
@@ -109,14 +110,6 @@ blockquote {
 
 }
 
-.signup {
-    background-color: #644d39eb;
-    color: #E5E7EB;
-    width: 100%;
-    justify-content: center;
-    align-items: center;   
-    display: flex;
-}
 
 ul,
 a {
@@ -163,4 +156,23 @@ button {
     padding-right: 5px;
 
 
+}
+
+.fourth {
+    display: flex;
+    height: 230px;
+
+}
+
+.signup {
+    background-color: #644d39eb;
+    border: 3px solid black;
+    color: #E5E7EB;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-button {
+    margin-left: 30px;
 }

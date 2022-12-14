@@ -103,13 +103,6 @@ blockquote {
     justify-content: flex-end;
 }
 
-.fourth {
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-}
-
 
 ul,
 a {
@@ -161,18 +154,30 @@ button {
 .fourth {
     display: flex;
     height: 230px;
+    justify-content: center;
+    margin-bottom:  40px;
 
 }
 
 .signup {
     background-color: #644d39eb;
-    border: 3px solid black;
+    border: 5px solid black;
+    border-radius: 30px;
     color: #E5E7EB;
     font-size: 30px;
-    display: flex;
-    flex-direction: column;
+    width: 150vh;
+    padding: 20px 20px;
+
 }
 
-.sign-button {
-    margin-left: 30px;
+
+.footer {
+    display: flex;
+    background-color: #644d39eb;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #F9FAF8;
+    padding: 18px;
 }
+
